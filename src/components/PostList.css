@@ -1,0 +1,7 @@
+.posts-list {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}

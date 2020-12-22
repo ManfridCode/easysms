@@ -1,0 +1,17 @@
+.post-list-item {
+    margin: 10px;
+    background: #e8e8e8;
+    box-shadow: 1px 1px 3px #fff;
+}
+
+.post-list-item-title {
+    background: #737373;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 0;
+}
+
+p.post-list-item-body {
+    padding: 10px;
+    margin: 0;
+}

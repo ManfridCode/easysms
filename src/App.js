@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import PostList from './components/PostList';
+import UserList from './components/UserList';
+import DataLayer from './components/DataLayer';
 
-function App() {
+const App = ()=>{
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <DataLayer>
+      <div className="App">
+          <nav className="user-block">
+            <span className="user-block--title">Пользователи</span>
+            <UserList/>
+          </nav>
+          <div className="post-block">
+            <span className="post-block--title">Посты</span>
+            <PostList/>
+          </div>
+      </div>
+    </DataLayer>
   );
 }
 

@@ -1,0 +1,11 @@
+.preloader {
+    align-items: center;
+    display: flex;
+    height: calc(100vh - 80px);
+    width: 100%;
+    justify-content: center;
+}
+.preloader--img {
+    height: 32px;
+    width: 32px;
+}

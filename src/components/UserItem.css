@@ -1,0 +1,12 @@
+li.user-list--item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+li.user-list--item_active {
+    background: #9a9a9a;
+}
+
+li.user-list--item:hover {
+    background: #9a9a9a;
+}
